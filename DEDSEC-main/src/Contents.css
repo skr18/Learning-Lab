@@ -1,0 +1,81 @@
+/*.content{
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+}*/
+   
+.part1{
+    display:flex;
+    flex-direction: row;
+    height: 120px;
+    background-color: #fafafa;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+}
+.part2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.lnk{
+    position: absolute;
+    left: 70px;
+    top: 60px;
+    opacity: 0;
+}
+
+.user{
+    margin-top: 20px;
+}
+.username{
+    margin-top: 10px;
+}
+.bija1{
+    font-size: 1.2rem;
+}
+.bija{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.user img{
+    height: 60px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.roomdetails{
+    padding-left: 550px;
+    margin-top: 30px;
+}
+.btn{
+    margin-right: 20px;
+}
+.card1{
+    padding: 10px;
+    margin: 10px;
+}
+.card2{
+    padding: 10px;
+    margin: 10px;
+}
+.card3{
+    padding: 10px;
+    margin: 10px;
+}
+.line{
+        margin-top: 20px;
+        border-top: 2px dashed red;
+}
+.greendot{
+    font-size:15px;
+  font-family:Arial;
+  width:12px;
+  height:10px;
+  border-width:1px;
+  color:#fff;
+  border-color:#18ab29;
+  font-weight:bold;
+  border-radius: 50px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:rgba(127, 236, 156, 1);
+
+}
